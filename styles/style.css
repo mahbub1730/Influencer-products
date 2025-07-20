@@ -1,3 +1,4 @@
+
 .navber{
     display: flex;
     align-items: center;
@@ -58,8 +59,84 @@
 .company {
     width: 1110px;
     height: 150;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
     margin-left: 80px;
     margin-top: 91px;
+}
+
+/* main section */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+}
+
+
+.card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 28px;
+  margin: 15px 0 5px;
+}
+
+.price {
+    font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.rating {
+  color: #787885;
+  margin: 5px 0;
+}
+
+.desc {
+  font-size: 14px;
+  color: #787885;
+}
+
+/* section 2 */
+
+.section-2 {
+    display: flex;
+    width: 1110px;
+    height: 270px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.image {
+   margin-right: 96px;
+   width: 100%;
+
+}
+.feature h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
 }
